@@ -8,5 +8,15 @@
                 <argument name="logo_width" xsi:type="string">50</argument>
             </arguments>
         </referenceBlock>
+
+
+    <referenceBlock name="header.links">
+        <block class="Magento\Framework\View\Element\Html\Link" name="top-link">
+          <arguments>
+              <argument name="label" xsi:type="string" translate="true">LinkedIn </argument>
+              <argument name="path" xsi:type="string" translate="true">https://linkedin.com/in/ahmedkena</argument>
+          </arguments>
+        </block>
+      </referenceBlock>
     </body>
 </page>
