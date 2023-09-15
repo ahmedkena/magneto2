@@ -31,9 +31,9 @@ module.exports = {
         ],
         dsl: 'less'
     },
-    luma: {
+    Custom: {
         area: 'frontend',
-        name: 'Magento/luma',
+        name: 'Customtheme/Custom',
         locale: 'en_US',
         files: [
             'css/styles-m',
