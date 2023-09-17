@@ -5,4 +5,15 @@
                name="simple.modal.popup"
                template="AlbertTran_Popup::popup.phtml" />
     </referenceContainer>
+
+<referenceBlock name="catalog.category.view" remove="true" />
+<referenceBlock name="catalog.category.view.type.default" remove="true" />
+<referenceBlock name="catalog.category.view.type.default.without.children" remove="true" />
+<referenceBlock name="catalog.product.compare.index" remove="true" />
+<referenceBlock name="catalog.product.gallery" remove="true" />
+<referenceBlock name="catalog.product.opengraph" remove="true" />
+<referenceBlock name="catalog.product.view" remove="true" />
+<referenceBlock name="catalog.product.view.type.simple" remove="true" />
+<referenceBlock name="catalog.product.view.type.virtual" remove="true" />
+<referenceBlock name="checkout.cart.item.renderers" remove="true" />
 </page>
